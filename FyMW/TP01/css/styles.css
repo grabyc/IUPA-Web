@@ -1,5 +1,5 @@
 body {
-  background-color: #2d4571; /* TP #01 - Paso 3.2 */
+  background-color: aquamarine; /* TP #01 - Paso 3.2 */
   font-family: "Noto Serif", serif; /* TP #02 - Inc 2.1 */
   font-size: 16px; /* TP #02 - Inc 2.2 */
 }
@@ -36,4 +36,31 @@ footer form input:focus,
 footer form textarea:focus {
   /* TP #02 - Inc 2.7 */
   background-color: green;
+}
+
+nav {
+  /* TP #02 - Inc 2.8 */
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* TP #02 - Inc 2.9 */
+nav .links,
+nav .links li {
+  float: left;
+  padding: 10px 20px;
+}
+
+nav .icons,
+nav .icons li {
+  float: right;
+  padding: 10px 20px;
+}
+
+[class="posts"] article {
+  /* TP #02 - Inc 2.10 */
+  display: inline-block;
+  width: 50%;
+  padding: 1vw;
 }
