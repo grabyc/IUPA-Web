@@ -1,3 +1,39 @@
 body {
-  background-color: #914f8b;
+  background-color: #2d4571; /* TP #01 - Paso 3.2 */
+  font-family: "Noto Serif", serif; /* TP #02 - Inc 2.1 */
+  font-size: 16px; /* TP #02 - Inc 2.2 */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal; /* TP #02 - Inc 2.3 */
+}
+
+nav a {
+  text-decoration: none; /* TP #02 - Inc 2.4 */
+  text-transform: uppercase; /* TP #02 - Inc 2.4 */
+}
+
+p {
+  text-align: justify; /* TP #02 - Inc 2.5 */
+  line-height: 2em; /* TP #02 - Inc 2.5 */
+}
+
+[class="posts"] article,
+footer > section:first-of-type {
+  /* TP #02 - Inc 2.6 (se modificó la consigna de "id='post'" (no existe ningun elemento  
+      con ese id que contenga hijos de tipo <article>) por "class='posts'"*/
+  border-style: dotted;
+  border-color: #cccccc;
+  border-width: 2px;
+}
+
+footer form input:focus,
+footer form textarea:focus {
+  /* TP #02 - Inc 2.7 */
+  background-color: green;
 }
