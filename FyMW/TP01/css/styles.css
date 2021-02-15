@@ -63,4 +63,13 @@ nav .icons li {
   display: inline-block;
   width: 50%;
   padding: 1vw;
+  box-sizing: border-box; /* TP #02 - Inc 2.11 */
+}
+
+#footer form {
+  /* TP #02 - Inc 2.12 */
+  background-color: cadetblue;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
